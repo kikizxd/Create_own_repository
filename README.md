@@ -3,16 +3,23 @@
 ### step1：下载安装Git客户端 ###
 https://git-scm.com/downloads/
 安装成功后电脑软件目录栏会出现
+
 ![avatar](git_001.png)
+
 ### step2：新建Repositories ###
 1、打开登录自己的github
+
 ![avatar](git_002.png)
 
 2、点击上图中“NEW”按键
+
 ![avatar](git_003.png)
+
 3、填写后点击Create repository
 这样就完成了仓库的新建。从下图可以看到该Repository里面已经有了一个“README.md”文件。在下面的操作中，我们将该Repository 拷贝到我们的本地计算机上。为了实现拷贝（clone）操作，我们需要记住下图中的地址（上图用红色标出的部分）
+
 ![avatar](git_004.png)
+
 ### step3：上传文件 ###
 打开Git Bash
 ```
@@ -39,7 +46,9 @@ git commit -m "first upload"
 git push origin master
 ```
 **<font color=red size=4>踩过的坑</font>**
+
 **上传数据过大**
+
 ![avatar](git_005.png)
 
 GitHub限制在1G，单个文件不能超过100M
